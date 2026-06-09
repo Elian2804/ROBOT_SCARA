@@ -2,7 +2,7 @@
 
 # ROBOT VIRTUAL SCARA
 
-**Simulador 3D interactivo y monitor serial para brazo robótico SCARA con ESP32**
+**Entorno virtual interactivo del brazo robótico SCARA con ESP32**
 
 [![Unity](https://img.shields.io/badge/Unity-2022.3.62f3-black?logo=unity&logoColor=white)](https://unity.com/)
 [![ESP32](https://img.shields.io/badge/ESP32-Arduino-red?logo=arduino&logoColor=white)](https://www.espressif.com/)
@@ -14,7 +14,7 @@
 
 ### ⬇️ DESCARGA
 
-> **No necesitas instalar Unity.** El ejecutable ya incluye todo lo necesario.
+> **No necesita instalar Unity.** El ejecutable ya incluye todo lo necesario.
 
 [![Descargar ZIP](https://img.shields.io/badge/⬇️%20Descargar%20ROBOT__SCARA.zip-Última%20versión-FFD900?style=for-the-badge&labelColor=121C33)](../../releases/latest)
 
@@ -24,7 +24,7 @@
 
 ## Manual de usuario
 
-Consulta el manual completo para instrucciones detalladas de instalación, uso de cada módulo y solución de problemas.
+Consulta el manual completo para instrucciones detalladas de ejecución, uso de cada módulo y solución de problemas.
 
 [![Manual de usuario](https://img.shields.io/badge/📄%20Manual%20de%20Usuario-Descargar%20PDF-FFD900?style=for-the-badge&labelColor=121C33)](../../releases/latest)
 
@@ -92,7 +92,7 @@ El script de Python manda decisiones (`PICK`, `DROP`, `HOME`), no coordenadas.
 
 <div align="center">
 
-Hecho con ♥ para control robótico educativo  
+Hecho con ♥  
 **ROBOT VIRTUAL SCARA — Unity 2022.3 + ESP32**
 
 </div>
