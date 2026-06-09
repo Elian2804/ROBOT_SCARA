@@ -12,14 +12,21 @@
 
 ---
 
-### ⬇️ DESCARGA EL SIMULADOR
+### ⬇️ DESCARGA
 
 > **No necesitas instalar Unity.** El ejecutable ya incluye todo lo necesario.
 
-<!-- Actualiza este enlace con el de tu Release en GitHub -->
 [![Descargar ZIP](https://img.shields.io/badge/⬇️%20Descargar%20ROBOT__SCARA.zip-Última%20versión-FFD900?style=for-the-badge&labelColor=121C33)](../../releases/latest)
 
 </div>
+
+---
+
+## Manual de usuario
+
+Consulta el manual completo para instrucciones detalladas de instalación, uso de cada módulo y solución de problemas.
+
+[![Manual de usuario](https://img.shields.io/badge/📄%20Manual%20de%20Usuario-Descargar%20PDF-FFD900?style=for-the-badge&labelColor=121C33)](../../releases/latest)
 
 ---
 
@@ -80,14 +87,6 @@ El script de Python manda decisiones (`PICK`, `DROP`, `HOME`), no coordenadas.
 | `H` | Home (secuencia segura) |
 | `U` | Ejecutar PICK |
 | `I` | Ejecutar DROP |
-
----
-
-## Manual de usuario
-
-Consulta el manual completo para instrucciones detalladas de instalación, uso de cada módulo y solución de problemas.
-
-[![Manual de usuario](https://img.shields.io/badge/📄%20Manual%20de%20Usuario-Descargar%20PDF-FFD900?style=for-the-badge&labelColor=121C33)](../../releases/latest)
 
 ---
 
