@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 5540efe727a33b64692a713406927aeb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lectorSerial: {instanceID: 0}
+  - motorM1_EjeZ: {fileID: 11400000, guid: 90e103f5eb1aacf40be8d7b62e44e3d4, type: 2}
+  - motorM2_Brazo1: {fileID: 11400000, guid: 4a6f4e8259518a740929c941ac76a289, type: 2}
+  - motorM3_Brazo2: {fileID: 11400000, guid: 88827cb368ea7fc4f9c7688018cd8557, type: 2}
+  - servoS1_GiroGarra: {fileID: 11400000, guid: 2f26603e83ead574db67507ba1e7ad48, type: 2}
+  - servoS2_Gripper: {fileID: 11400000, guid: ca2ea3e87fd55a441a4c46390b97cc04, type: 2}
+  - articulacionVertical: {instanceID: 0}
+  - pivotArt1: {instanceID: 0}
+  - pivotArt2: {instanceID: 0}
+  - giroGarra: {instanceID: 0}
+  - garra1: {instanceID: 0}
+  - garra2: {instanceID: 0}
+  - panelBarra: {instanceID: 0}
+  - panelEstado: {instanceID: 0}
+  - panelConsola: {instanceID: 0}
+  - panelErrores: {instanceID: 0}
+  - panelControlArticular: {instanceID: 0}
+  - panelTrayectorias: {instanceID: 0}
+  - panelVisionBT: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

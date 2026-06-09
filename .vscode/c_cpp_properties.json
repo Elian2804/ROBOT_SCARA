@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "ESP32 Arduino",
+            "includePath": [
+                "${workspaceFolder}/Arduino/libraries/**",
+                "C:/Users/BAPTISTA/AppData/Local/Arduino15/packages/esp32/hardware/esp32/**/cores/esp32",
+                "C:/Users/BAPTISTA/AppData/Local/Arduino15/packages/esp32/hardware/esp32/**/variants/esp32",
+                "C:/Users/BAPTISTA/AppData/Local/Arduino15/packages/esp32/hardware/esp32/**/libraries/**",
+                "C:/Users/BAPTISTA/AppData/Local/Arduino15/packages/esp32/tools/**",
+                "C:/Program Files/Arduino IDE/resources/app/lib/backend/resources/arduino-ide-backend/hardware/**"
+            ],
+            "defines": [
+                "ARDUINO=10813",
+                "ARDUINO_ESP32_DEV",
+                "ESP32",
+                "F_CPU=240000000L"
+            ],
+            "compilerPath": "C:/Users/BAPTISTA/AppData/Local/Arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/*/bin/xtensa-esp32-elf-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "forcedInclude": []
+        }
+    ],
+    "version": 4
+}

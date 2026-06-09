@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95ccdbdecca39ae4ea4059c1c851f700, type: 3}
+  m_Name: S1_GiroGarra
+  m_EditorClassIdentifier: 
+  nombreActuador: S1 - GiroGarra
+  tipo: 1
+  pinSenal: 35
+  pinDir: 0
+  velocidadMaxPasos: 0
+  limiteMin: 0
+  limiteMax: 180
+  pulsoMin_us: 1000
+  pulsoMax_us: 2000

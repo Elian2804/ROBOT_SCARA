@@ -1,0 +1,92 @@
+# ============================================================
+#  ROBOT SCARA — .gitignore
+# ============================================================
+
+# --- Archivos internos de Claude Code (NUNCA publicar) ---
+CLAUDE.md
+INSTRUCCIONES_CLAUDE_CODE_SCARA.md
+.claude/
+
+# --- Documentación interna (no para el repositorio público) ---
+DOCUMENTACION_COMPLETA.md
+GUIA_USUARIO.md
+
+# --- Unity generados (regenerados al abrir el proyecto) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
+[Uu]ser[Ss]ettings/
+*.pidb
+*.unityproj
+*.booproj
+sysinfo.txt
+*.stackdump
+crashlytics-build.properties
+
+# --- IDE generados ---
+*.sln
+*.csproj
+*.suo
+*.tmp
+*.user
+.vs/
+.idea/
+*.swp
+*.userprefs
+
+# --- Visual Studio Code ---
+# .vscode/ se incluye porque contiene la config de IntelliSense para ESP32
+# Si prefieres excluirlo, descomenta la línea siguiente:
+# .vscode/
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V8
+.Trashes
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Asset Store / importaciones temporales ---
+Assets/AssetStoreTools*
+
+# --- Textmesh Pro (regenerable, pesado) ---
+# Si tu proyecto necesita incluirlo, comenta estas líneas:
+# Assets/TextMesh Pro/
+
+# --- Builds del ejecutable (se distribuyen como Release en GitHub) ---
+Build/
+Builds/
+*.exe
+*.app
+*.apk
+*.aab
+
+# --- Python bytecode ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# --- Logs de Arduino IDE ---
+*.elf
+*.map
+*.bin
+*.hex
+
+# --- Otros ---
+*.orig
+*.bak
+*.log
+npm-debug.log*
