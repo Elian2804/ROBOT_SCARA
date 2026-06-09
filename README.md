@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 ROBOT SCARA — Simulador & Monitor Unity
+# ROBOT VIRTUAL SCARA
 
 **Simulador 3D interactivo y monitor serial para brazo robótico SCARA con ESP32**
 
@@ -83,114 +83,17 @@ El script de Python manda decisiones (`PICK`, `DROP`, `HOME`), no coordenadas.
 
 ---
 
-## Conectar el hardware ESP32
+## Manual de usuario
 
-### Requisitos
-- Arduino IDE 1.8+ o 2.x
-- Placa: **ESP32 Dev Module**
-- Baud rate: `115200`
+Consulta el manual completo para instrucciones detalladas de instalación, uso de cada módulo y solución de problemas.
 
-### Instalar la librería SCARA
-
-1. Copia `SCARA.h` y `SCARA.cpp` (carpeta `ESP32/` del ZIP) a la carpeta de tu sketch.
-2. Incluye la librería en tu código:
-
-```cpp
-#include "SCARA.h"
-
-void setup() {
-    SCARA.begin(115200);
-    pinMode(EN_PIN, OUTPUT);
-    digitalWriteScara(EN_PIN, LOW);  // Activa drivers (LOW = activo)
-}
-
-void loop() {
-    // Usa digitalWriteScara() y delayMicrosecondsScara()
-    // en lugar de las funciones estándar de Arduino
-}
-```
-
-### Pines del hardware
-
-| Motor / Señal | Pin DIR | Pin STEP/señal |
-|---------------|---------|----------------|
-| M1 Eje Z | 2 | 15 |
-| M2 Brazo 1 (J1) | 18 | 19 |
-| M3 Brazo 2 (J2) | 4 | 16 |
-| EN (enable drivers) | — | 5 |
-| S1 Giro garra | — | 35 |
-| S2 Gripper | — | 34 |
-
-### Sketches de prueba incluidos
-
-| Sketch | Descripción |
-|--------|-------------|
-| `M1_ControlArticular` | Control básico articulaciones, protocolo serial completo |
-| `M2_Trayectorias` | Ejecuta trayectorias punto a punto |
-| `M3_VisionBT` | Integración Bluetooth + comandos TCP desde Python |
-| `Demo_Figuras` | Dibuja figuras para verificar calibración |
-
----
-
-## Módulo de visión artificial (Python)
-
-Requiere Python 3.8+ y OpenCV:
-
-```bash
-pip install -r Python/requirements.txt
-python Python/vision_scara.py
-```
-
-El script se conecta al simulador (o al ESP32 vía Bluetooth) por TCP en `localhost:5005`.
-
----
-
-## Compilar desde el código fuente
-
-> Solo necesario si quieres modificar la interfaz Unity.
-
-**Requisitos:**
-- Unity 2022.3.62f3 (LTS)
-- Visual Studio 2022 o VS Code
-
-```
-1. Clona este repositorio
-2. Abre Unity Hub → Add → selecciona la carpeta del proyecto
-3. Abre la escena: Assets/ROBOT_SCARA.unity
-4. Menú SCARA → Construir Escena Completa (si los paneles no aparecen)
-5. File → Build Settings → Build
-```
-
----
-
-## Estructura del repositorio
-
-```
-Assets/
-├── Scripts/          ← C# runtime (simulador, serial, UI)
-│   └── Editor/       ← Herramientas del editor Unity
-├── ESP32/            ← Firmware ESP32 + librería SCARA
-├── Python/           ← Visión artificial
-├── Datos/Motores/    ← Assets de configuración de motores
-├── Scenes/           ← Escena principal Unity
-└── images/           ← Recursos visuales
-Docs/                 ← Documentación técnica completa
-ProjectSettings/      ← Configuración del proyecto Unity
-Packages/             ← Dependencias Unity
-```
-
----
-
-## Documentación técnica
-
-La carpeta `Docs/Entregables/` contiene la documentación completa del proyecto:
-casos de uso, requerimientos, diagramas UML, resultados de pruebas y análisis de latencias.
+[![Manual de usuario](https://img.shields.io/badge/📄%20Manual%20de%20Usuario-Descargar%20PDF-FFD900?style=for-the-badge&labelColor=121C33)](../../releases/latest)
 
 ---
 
 <div align="center">
 
 Hecho con ♥ para control robótico educativo  
-**ROBOT SCARA — Unity 2022.3 + ESP32**
+**ROBOT VIRTUAL SCARA — Unity 2022.3 + ESP32**
 
 </div>
